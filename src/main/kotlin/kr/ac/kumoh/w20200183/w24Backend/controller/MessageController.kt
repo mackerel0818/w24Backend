@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class MessageController {
 
     @GetMapping
-    fun getRoot() = mapOf("status" to "success")
+    fun getRoot() = mapOf("status" to "root")
 
     @GetMapping("/api/message")
     fun getMessage() = mapOf("status" to "success")
